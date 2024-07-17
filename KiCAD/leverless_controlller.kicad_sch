@@ -1,0 +1,110 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid d4101bc9-65c8-46ec-b973-5d64e4a94ac0)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "Keyboard:Stabilizer_MX_2u" (in_bom no) (on_board yes)
+      (property "Reference" "S" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Stabilizer_MX_2u_0_1"
+        (rectangle (start -8.89 -1.27) (end 8.89 -7.62)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "Stabilizer_MX_2u_1_1"
+        (polyline
+          (pts
+            (xy -7.62 -5.08)
+            (xy -7.62 -6.35)
+            (xy 7.62 -6.35)
+            (xy 7.62 -5.08)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (text "+" (at -6.35 -3.81 0)
+          (effects (font (size 3 3)))
+        )
+        (text "+" (at 6.35 -3.81 0)
+          (effects (font (size 3 3)))
+        )
+      )
+    )
+  )
+
+
+  (symbol (lib_id "Keyboard:Stabilizer_MX_2u") (at 49.53 149.86 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b3aac7f9-4914-4bb6-8644-d7b86b60b37c)
+    (property "Reference" "S1" (at 59.69 154.305 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "~" (at 49.53 149.86 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "keyswitches.pretty-2.1:Stabilizer_MX_2u" (at 49.53 149.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 49.53 149.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "leverless_controlller"
+        (path "/d4101bc9-65c8-46ec-b973-5d64e4a94ac0"
+          (reference "S1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (sheet (at 38.1 27.94) (size 64.77 67.31) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8c80bd9b-e7f4-4fd2-8937-7b0f564b4108)
+    (property "Sheetname" "Main" (at 38.1 27.2284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Main.kicad_sch" (at 38.1 95.8346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "leverless_controlller"
+        (path "/d4101bc9-65c8-46ec-b973-5d64e4a94ac0" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 142.24 29.21) (size 80.01 62.23) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid bc1b351c-1627-42c1-9e58-b39536765ac8)
+    (property "Sheetname" "Buttons" (at 142.24 28.4984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Buttons.kicad_sch" (at 142.24 92.0246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "leverless_controlller"
+        (path "/d4101bc9-65c8-46ec-b973-5d64e4a94ac0" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
