@@ -5,6 +5,102 @@
 	(uuid "ac51d7e8-d2d8-42d1-a9f0-9b409f72685c")
 	(paper "A4")
 	(lib_symbols
+		(symbol "GND_1"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers hide)
 			(pin_names
@@ -349,16 +445,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 41.91) (xy 81.28 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45c3e774-c1d2-4704-8bf9-cfe3836a877b")
-	)
-	(wire
-		(pts
 			(xy 39.37 179.07) (xy 44.45 179.07)
 		)
 		(stroke
@@ -429,6 +515,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 179.07) (xy 66.04 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6740780b-4647-4f7c-bfe5-5862871161ff")
+	)
+	(wire
+		(pts
 			(xy 39.37 25.4) (xy 44.45 25.4)
 		)
 		(stroke
@@ -446,16 +542,6 @@
 			(type default)
 		)
 		(uuid "78bd9655-f876-4d31-905d-27c4fb60976f")
-	)
-	(wire
-		(pts
-			(xy 59.69 41.91) (xy 66.04 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "823ba9fb-d135-4993-a7b3-dd62d52766dd")
 	)
 	(wire
 		(pts
@@ -589,6 +675,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 179.07) (xy 81.28 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d72e93bc-e3e7-46e5-af21-b2c46bfbd888")
+	)
+	(wire
+		(pts
 			(xy 59.69 107.95) (xy 66.04 107.95)
 		)
 		(stroke
@@ -693,7 +789,7 @@
 			)
 		)
 	)
-	(global_label "UP2"
+	(global_label "W"
 		(shape output)
 		(at 59.69 107.95 180)
 		(fields_autoplaced yes)
@@ -705,7 +801,7 @@
 		)
 		(uuid "25ee019c-25c8-4d7e-b559-0078cbc7b943")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.8948 107.95 0)
+			(at 55.2534 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -728,28 +824,6 @@
 		(uuid "3974dfa6-e936-4973-afbd-9d2cae8efa58")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 17.3953 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "R3"
-		(shape output)
-		(at 59.69 41.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5b383b69-02d8-45a5-86ce-da5684e463e9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.2253 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -935,6 +1009,28 @@
 			)
 		)
 	)
+	(global_label "MODE"
+		(shape output)
+		(at 59.69 179.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed6dc1b3-39aa-4121-823d-5e718a0024fc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 51.5039 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "B4"
 		(shape output)
 		(at 22.86 74.93 180)
@@ -1001,7 +1097,7 @@
 			)
 		)
 	)
-	(global_label "UP1"
+	(global_label "SPACE"
 		(shape output)
 		(at 59.69 90.17 180)
 		(fields_autoplaced yes)
@@ -1013,7 +1109,7 @@
 		)
 		(uuid "f5712fb1-a7a8-4a1f-a1f9-0cb0ec0442b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.8948 90.17 0)
+			(at 50.7177 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1050,7 +1146,7 @@
 		(at 71.12 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -1181,72 +1277,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06c2971b-9bc9-4db1-9e6b-e9da62e555a9")
-		(property "Reference" "#PWR037"
-			(at 81.28 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 81.28 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 81.28 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c1a0181-a3b1-4869-9b33-8d4879ab9a1f")
-		)
-		(instances
-			(project "leverless_controlller"
-				(path "/d4101bc9-65c8-46ec-b973-5d64e4a94ac0/bc1b351c-1627-42c1-9e58-b39536765ac8"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 44.45 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1316,7 +1346,7 @@
 		(at 34.29 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -1516,7 +1546,7 @@
 		(at 71.12 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -1782,12 +1812,12 @@
 		(at 71.12 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28fcd761-0f15-47af-9a26-31d26282c482")
-		(property "Reference" "SW17_UP2"
+		(property "Reference" "SW17_W1"
 			(at 71.12 100.33 0)
 			(effects
 				(font
@@ -1839,7 +1869,7 @@
 		(instances
 			(project "leverless_controlller"
 				(path "/d4101bc9-65c8-46ec-b973-5d64e4a94ac0/bc1b351c-1627-42c1-9e58-b39536765ac8"
-					(reference "SW17_UP2")
+					(reference "SW17_W1")
 					(unit 1)
 				)
 			)
@@ -1913,78 +1943,10 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 71.12 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3e002320-9205-402c-bc3d-b19467f75228")
-		(property "Reference" "SW13_R3"
-			(at 71.12 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 71.12 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fightstick_Library:Kailh_MX_Style_Keyswitch"
-			(at 71.12 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 71.12 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bfa2a8d1-c7bd-4258-ad1d-a1bfe0e68fad")
-		)
-		(pin "2"
-			(uuid "2cc8ac9d-e4b3-4291-9680-72bfd1ae7f7d")
-		)
-		(instances
-			(project "leverless_controlller"
-				(path "/d4101bc9-65c8-46ec-b973-5d64e4a94ac0/bc1b351c-1627-42c1-9e58-b39536765ac8"
-					(reference "SW13_R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
 		(at 34.29 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2005,7 +1967,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fightstick_Library:Kailh_MX_Style_Keyswitch"
+		(property "Footprint" "Button_Switch_THT:SW_SPST_Omron_B3F-40xx"
 			(at 34.29 173.99 0)
 			(effects
 				(font
@@ -2052,12 +2014,12 @@
 		(at 71.12 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "488b8fd5-ee2a-4db1-b205-0d6f5d9dc0a3")
-		(property "Reference" "SW16_UP1"
+		(property "Reference" "SW16_SPACE1"
 			(at 71.12 82.55 0)
 			(effects
 				(font
@@ -2109,7 +2071,7 @@
 		(instances
 			(project "leverless_controlller"
 				(path "/d4101bc9-65c8-46ec-b973-5d64e4a94ac0/bc1b351c-1627-42c1-9e58-b39536765ac8"
-					(reference "SW16_UP1")
+					(reference "SW16_SPACE1")
 					(unit 1)
 				)
 			)
@@ -2186,7 +2148,7 @@
 		(at 69.85 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2254,7 +2216,7 @@
 		(at 34.29 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2388,7 +2350,7 @@
 		(at 34.29 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2409,7 +2371,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fightstick_Library:Kailh_MX_Style_Keyswitch"
+		(property "Footprint" "Button_Switch_THT:SW_SPST_Omron_B3F-40xx"
 			(at 34.29 156.21 0)
 			(effects
 				(font
@@ -2522,7 +2484,7 @@
 		(at 34.29 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2590,7 +2552,7 @@
 		(at 34.29 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2856,7 +2818,7 @@
 		(at 71.12 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2877,7 +2839,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fightstick_Library:Kailh_MX_Style_Keyswitch"
+		(property "Footprint" "Button_Switch_THT:SW_SPST_Omron_B3F-40xx"
 			(at 71.12 69.85 0)
 			(effects
 				(font
@@ -2924,7 +2886,7 @@
 		(at 69.85 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2945,7 +2907,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fightstick_Library:Kailh_MX_Style_Keyswitch"
+		(property "Footprint" "Button_Switch_THT:SW_SPST_Omron_B3F-40xx"
 			(at 69.85 53.34 0)
 			(effects
 				(font
@@ -3055,10 +3017,78 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
+		(at 71.12 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b98543ce-8389-45ad-880a-1b31671b77a5")
+		(property "Reference" "SW2_MODE1"
+			(at 71.12 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 71.12 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_SPST_Omron_B3F-40xx"
+			(at 71.12 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 71.12 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d9bed2f0-33ce-4e0e-8817-0d5f4128ef54")
+		)
+		(pin "1"
+			(uuid "697b24d6-aeb3-4b79-86ce-07296ad6dc2c")
+		)
+		(instances
+			(project ""
+				(path "/d4101bc9-65c8-46ec-b973-5d64e4a94ac0/bc1b351c-1627-42c1-9e58-b39536765ac8"
+					(reference "SW2_MODE1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
 		(at 34.29 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3126,7 +3156,7 @@
 		(at 34.29 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3194,7 +3224,7 @@
 		(at 34.29 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3262,7 +3292,7 @@
 		(at 71.12 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3396,7 +3426,7 @@
 		(at 34.29 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3520,6 +3550,73 @@
 			(project "leverless_controlller"
 				(path "/d4101bc9-65c8-46ec-b973-5d64e4a94ac0/bc1b351c-1627-42c1-9e58-b39536765ac8"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 81.28 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc46dbc4-52ef-465c-91b6-be5ff7f39dfa")
+		(property "Reference" "#PWR045"
+			(at 81.28 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 81.28 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef4b799b-ab44-4438-9738-c60d11da7f52")
+		)
+		(instances
+			(project ""
+				(path "/d4101bc9-65c8-46ec-b973-5d64e4a94ac0/bc1b351c-1627-42c1-9e58-b39536765ac8"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)

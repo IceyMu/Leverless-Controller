@@ -124,7 +124,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fightstick_Library:Kailh_MX_Style_Keyswitch"
+		(property "Footprint" "PCM_Mounting_Keyboard_Stabilizer:Stabilizer_Cherry_MX_2.00u"
 			(at 49.53 149.86 0)
 			(effects
 				(font
