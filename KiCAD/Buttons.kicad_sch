@@ -5,102 +5,6 @@
 	(uuid "ac51d7e8-d2d8-42d1-a9f0-9b409f72685c")
 	(paper "A4")
 	(lib_symbols
-		(symbol "GND_1"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_1_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers hide)
 			(pin_names
@@ -515,16 +419,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 179.07) (xy 66.04 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6740780b-4647-4f7c-bfe5-5862871161ff")
-	)
-	(wire
-		(pts
 			(xy 39.37 25.4) (xy 44.45 25.4)
 		)
 		(stroke
@@ -672,16 +566,6 @@
 			(type default)
 		)
 		(uuid "d6c58696-3007-459c-a041-1747827a3c64")
-	)
-	(wire
-		(pts
-			(xy 76.2 179.07) (xy 81.28 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d72e93bc-e3e7-46e5-af21-b2c46bfbd888")
 	)
 	(wire
 		(pts
@@ -1009,28 +893,6 @@
 			)
 		)
 	)
-	(global_label "MODE"
-		(shape output)
-		(at 59.69 179.07 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ed6dc1b3-39aa-4121-823d-5e718a0024fc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.5039 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "B4"
 		(shape output)
 		(at 22.86 74.93 180)
@@ -1167,7 +1029,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fightstick_Library:Kailh_MX_Style_Keyswitch"
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 			(at 71.12 120.65 0)
 			(effects
 				(font
@@ -1367,7 +1229,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fightstick_Library:Kailh_MX_Style_Keyswitch"
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB"
 			(at 34.29 69.85 0)
 			(effects
 				(font
@@ -1567,7 +1429,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fightstick_Library:Kailh_MX_Style_Keyswitch"
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 			(at 71.12 156.21 0)
 			(effects
 				(font
@@ -1833,7 +1695,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fightstick_Library:Kailh_MX_Style_Keyswitch"
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 			(at 71.12 102.87 0)
 			(effects
 				(font
@@ -2035,7 +1897,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fightstick_Library:Kailh_MX_Style_Keyswitch"
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB"
 			(at 71.12 85.09 0)
 			(effects
 				(font
@@ -2169,7 +2031,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fightstick_Library:Kailh_MX_Style_Keyswitch"
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB"
 			(at 69.85 20.32 0)
 			(effects
 				(font
@@ -2237,7 +2099,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fightstick_Library:Kailh_MX_Style_Keyswitch"
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB"
 			(at 34.29 36.83 0)
 			(effects
 				(font
@@ -2505,7 +2367,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fightstick_Library:Kailh_MX_Style_Keyswitch"
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB"
 			(at 34.29 53.34 0)
 			(effects
 				(font
@@ -2573,7 +2435,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fightstick_Library:Kailh_MX_Style_Keyswitch"
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB"
 			(at 34.29 138.43 0)
 			(effects
 				(font
@@ -3017,74 +2879,6 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 71.12 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b98543ce-8389-45ad-880a-1b31671b77a5")
-		(property "Reference" "SW2_MODE1"
-			(at 71.12 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 71.12 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_SPST_Omron_B3F-40xx"
-			(at 71.12 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 71.12 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d9bed2f0-33ce-4e0e-8817-0d5f4128ef54")
-		)
-		(pin "1"
-			(uuid "697b24d6-aeb3-4b79-86ce-07296ad6dc2c")
-		)
-		(instances
-			(project ""
-				(path "/d4101bc9-65c8-46ec-b973-5d64e4a94ac0/bc1b351c-1627-42c1-9e58-b39536765ac8"
-					(reference "SW2_MODE1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
 		(at 34.29 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3109,7 +2903,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fightstick_Library:Kailh_MX_Style_Keyswitch"
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB"
 			(at 34.29 120.65 0)
 			(effects
 				(font
@@ -3177,7 +2971,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fightstick_Library:Kailh_MX_Style_Keyswitch"
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB"
 			(at 34.29 20.32 0)
 			(effects
 				(font
@@ -3245,7 +3039,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fightstick_Library:Kailh_MX_Style_Keyswitch"
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB"
 			(at 34.29 102.87 0)
 			(effects
 				(font
@@ -3313,7 +3107,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fightstick_Library:Kailh_MX_Style_Keyswitch"
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 			(at 71.12 138.43 0)
 			(effects
 				(font
@@ -3447,7 +3241,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fightstick_Library:Kailh_MX_Style_Keyswitch"
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB"
 			(at 34.29 85.09 0)
 			(effects
 				(font
@@ -3550,73 +3344,6 @@
 			(project "leverless_controlller"
 				(path "/d4101bc9-65c8-46ec-b973-5d64e4a94ac0/bc1b351c-1627-42c1-9e58-b39536765ac8"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 81.28 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc46dbc4-52ef-465c-91b6-be5ff7f39dfa")
-		(property "Reference" "#PWR045"
-			(at 81.28 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 81.28 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ef4b799b-ab44-4438-9738-c60d11da7f52")
-		)
-		(instances
-			(project ""
-				(path "/d4101bc9-65c8-46ec-b973-5d64e4a94ac0/bc1b351c-1627-42c1-9e58-b39536765ac8"
-					(reference "#PWR045")
 					(unit 1)
 				)
 			)

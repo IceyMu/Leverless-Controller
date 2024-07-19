@@ -5,6 +5,126 @@
 	(uuid "a7dde382-2bbc-4936-822b-9f81cbd369d0")
 	(paper "A4")
 	(lib_symbols
+		(symbol "+3.3V_1"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_1_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:Conn_01x03_Socket"
 			(pin_names
 				(offset 1.016) hide)
@@ -3773,12 +3893,6 @@
 		(uuid "a3fb8fa6-8f71-4575-81f3-364cca74e479")
 	)
 	(junction
-		(at 186.69 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac80202c-28f3-4e4f-a461-8056204a157f")
-	)
-	(junction
 		(at 176.53 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3863,6 +3977,10 @@
 	(no_connect
 		(at 215.9 137.16)
 		(uuid "a44cfcdc-5e35-4e1a-b892-63c5ce431309")
+	)
+	(no_connect
+		(at 215.9 68.58)
+		(uuid "bdf92129-7072-4508-a85e-de5616d5e78e")
 	)
 	(no_connect
 		(at 215.9 119.38)
@@ -5144,16 +5262,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 40.64) (xy 186.69 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8a4b5a9-8578-45a8-b0cb-1ac4b93657a0")
-	)
-	(wire
-		(pts
 			(xy 86.36 101.6) (xy 95.25 101.6)
 		)
 		(stroke
@@ -5428,7 +5536,7 @@
 	)
 	(text "Tie RUN pin to IOVDD for now external resets"
 		(exclude_from_sim no)
-		(at 143.002 61.468 0)
+		(at 143.002 59.944 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5601,17 +5709,6 @@
 		)
 		(uuid "5d9d4bd2-2e7d-4c76-baa7-0b7ef8f4bd69")
 	)
-	(label "RUN"
-		(at 151.13 68.58 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6b6b9a98-fd58-4271-850a-aff592e2c28b")
-	)
 	(label "SWDIO"
 		(at 143.51 137.16 0)
 		(fields_autoplaced yes)
@@ -5711,17 +5808,6 @@
 		)
 		(uuid "99af8c87-883e-476d-9c9f-ce8b5a95533c")
 	)
-	(label "RUN"
-		(at 186.69 40.64 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b31def87-3531-4829-9fe9-de31e3f56f76")
-	)
 	(label "QSPI_SD3"
 		(at 58.42 172.72 0)
 		(fields_autoplaced yes)
@@ -5790,28 +5876,6 @@
 		(uuid "01223163-9693-42be-bfac-902444a4b965")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 221.1228 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MODE"
-		(shape input)
-		(at 215.9 68.58 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3ca1091c-75b3-471e-b9ad-48e68338c43f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.0861 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9321,6 +9385,73 @@
 			(project "leverless_controlller"
 				(path "/d4101bc9-65c8-46ec-b973-5d64e4a94ac0/8c80bd9b-e7f4-4fd2-8937-7b0f564b4108"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3.3V_1")
+		(lib_id "power:+3.3V")
+		(at 151.13 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa6379d0-0119-4fe9-8e2d-28a4253a629e")
+		(property "Reference" "#PWR037"
+			(at 151.13 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 151.13 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 151.13 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1aa32e01-a9f5-469d-8047-e7d15f892bee")
+		)
+		(instances
+			(project ""
+				(path "/d4101bc9-65c8-46ec-b973-5d64e4a94ac0/8c80bd9b-e7f4-4fd2-8937-7b0f564b4108"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
