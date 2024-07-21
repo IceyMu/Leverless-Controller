@@ -7116,6 +7116,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB #" "C20625731"
+			(at 43.18 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ef358345-74b5-4cb3-acb1-dfb6b72f3ce0")
 		)
@@ -8182,6 +8191,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB #" "C26537"
+			(at 104.14 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "eb6f3ddb-3075-4192-92c5-31bd9e82e3c3")
 		)
@@ -8381,6 +8399,15 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 30.48 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" "C6332272"
 			(at 30.48 49.53 0)
 			(effects
 				(font
@@ -8761,6 +8788,15 @@
 			)
 		)
 		(property "Description" "Generic push-button switch, two contact pins and shield pin(s)"
+			(at 30.48 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" "C2910660"
 			(at 30.48 160.02 0)
 			(effects
 				(font
@@ -10243,6 +10279,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 78.74 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" "C131025"
 			(at 78.74 167.64 0)
 			(effects
 				(font
