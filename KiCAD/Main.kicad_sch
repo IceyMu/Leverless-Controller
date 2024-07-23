@@ -1529,102 +1529,6 @@
 				)
 			)
 		)
-		(symbol "GND_1"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_1_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "MCU_RaspberryPi:RP2040"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3093,29 +2997,31 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_Push_Shielded"
+		(symbol "Switch:SW_Push"
+			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW1"
-				(at 0 7.62 0)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SW_DIP_x01"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Fightstick_Library:SW_SMD_BUTTON_YTS_A007"
+			(property "Footprint" ""
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -3133,7 +3039,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic push-button switch, two contact pins and shield pin(s)"
+			(property "Description" "Push button switch, generic, two pins"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3142,7 +3048,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch normally-open pushbutton momentary"
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3151,7 +3057,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_Push_Shielded_0_1"
+			(symbol "SW_Push_0_1"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -3181,30 +3087,6 @@
 					)
 					(stroke
 						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 2.54) (xy 3.048 2.54) (xy 3.048 -1.143) (xy -3.048 -1.143) (xy -3.048 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width -0.0254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 2.54) (xy 3.048 2.54) (xy 3.048 -1.143) (xy -3.048 -1.143) (xy -3.048 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -3251,37 +3133,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SW_Push_Shielded_1_1"
-				(rectangle
-					(start -3.048 2.54)
-					(end 3.048 -1.27)
-					(stroke
-						(width -0.0254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5481,27 +5332,6 @@
 		)
 		(uuid "114ea18c-bd23-45c3-bb92-171bfd38da2d")
 	)
-	(text "TODO figure out the keyswitch footprints"
-		(exclude_from_sim no)
-		(at 245.618 123.444 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1fd7efa6-7360-46c5-a2fc-2b554add4354")
-	)
-	(text "TODO determine what extra features might be needed form the GPIO pins"
-		(exclude_from_sim no)
-		(at 225.806 120.396 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "206e7fc5-d604-4fe2-b8cb-daeb3ab63969")
-	)
 	(text "Keep these resistors\nclose to the 2040"
 		(exclude_from_sim no)
 		(at 106.68 74.93 0)
@@ -5523,16 +5353,6 @@
 			(justify left bottom)
 		)
 		(uuid "5acd0d1d-6c21-497b-9c23-c10141eb4783")
-	)
-	(text "TODO add hardware to chose up buttons modes"
-		(exclude_from_sim no)
-		(at 249.936 115.316 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8678050d-a2b7-4f3c-936d-7678fbc95359")
 	)
 	(text "Tie RUN pin to IOVDD for now external resets"
 		(exclude_from_sim no)
@@ -5863,28 +5683,6 @@
 		)
 		(uuid "fa76fcb0-6c28-471d-85cb-d4b87b94e99a")
 	)
-	(global_label "L3"
-		(shape input)
-		(at 215.9 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "01223163-9693-42be-bfac-902444a4b965")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 221.1228 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "L2"
 		(shape input)
 		(at 215.9 71.12 0)
@@ -5895,119 +5693,9 @@
 			)
 			(justify left)
 		)
-		(uuid "3f36a777-1516-4e39-b39e-5d3a126eb897")
+		(uuid "092549c4-f6ab-45cb-bf1a-9f78f77c27d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 221.1228 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "B3"
-		(shape input)
-		(at 215.9 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "55d5835c-1578-49e1-94c0-9af6f35e4814")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 221.3647 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "R2"
-		(shape input)
-		(at 215.9 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "75c8138c-abe5-458c-b512-aa67bb17b76b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 221.3647 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "L1"
-		(shape input)
-		(at 215.9 111.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7aa770c9-20eb-4799-8b7c-55ea3569f838")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 221.1228 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "B4"
-		(shape input)
-		(at 215.9 99.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7adc282b-d2e9-4134-911e-6d75284acca9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 221.3647 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "S1"
-		(shape input)
-		(at 215.9 114.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "89791163-d1d8-4984-b835-886b45d10150")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 221.3042 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6027,7 +5715,7 @@
 			)
 			(justify left)
 		)
-		(uuid "936681d0-1ab4-4a3f-9cd9-6f17d78cacc6")
+		(uuid "1409c704-ce69-47e7-aac1-bf70466e50b5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 221.3647 86.36 0)
 			(effects
@@ -6039,75 +5727,9 @@
 			)
 		)
 	)
-	(global_label "B2"
-		(shape input)
-		(at 215.9 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a2dc97f4-ec82-43e7-bd46-2dcafc63c141")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 221.3647 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPACE"
-		(shape input)
-		(at 215.9 73.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b1ebe6c7-731e-4056-bdd2-e57c3e3edd77")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.8723 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RIGHT"
-		(shape input)
-		(at 215.9 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b5ccd8fe-a1ad-462f-860b-3ee3a89ccd4a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.3281 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "A2"
 		(shape input)
-		(at 215.9 104.14 0)
+		(at 215.9 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6115,9 +5737,9 @@
 			)
 			(justify left)
 		)
-		(uuid "c9569a2b-6b94-4099-b25f-fe097f560954")
+		(uuid "1a701e1a-590c-48cd-895a-4840a39d063e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 221.1833 104.14 0)
+			(at 221.1833 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6127,9 +5749,9 @@
 			)
 		)
 	)
-	(global_label "LEFT"
+	(global_label "L3"
 		(shape input)
-		(at 215.9 76.2 0)
+		(at 215.9 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6137,75 +5759,9 @@
 			)
 			(justify left)
 		)
-		(uuid "d3f03b62-85ab-4f8b-bc80-196ee94632b1")
+		(uuid "64737556-446e-499a-8384-3ddcbadd1b83")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.1185 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "W"
-		(shape input)
-		(at 215.9 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e59085db-d1fa-4d9b-a1eb-388014b39b2c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.3366 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "A1"
-		(shape input)
-		(at 215.9 109.22 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e6da274b-2a21-42ec-98c4-fe053dd5f01c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 221.1833 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DOWN"
-		(shape input)
-		(at 215.9 78.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e836d15a-ce23-4d3d-98f3-aa7daf80ad4c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.2676 78.74 0)
+			(at 221.1228 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6225,9 +5781,207 @@
 			)
 			(justify left)
 		)
-		(uuid "f2c3f7f1-cdfe-4f96-9f87-9c67945dc775")
+		(uuid "75c04ae8-1065-40c5-a1bd-291ad3674d99")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 221.3042 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B4"
+		(shape input)
+		(at 215.9 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "77eecbcf-e2bc-4e57-87a8-5bf49a7dc02d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 221.3647 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A1"
+		(shape input)
+		(at 215.9 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "843bfdb6-6a64-4888-9c53-fb86a8bfbf3e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 221.1833 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R2"
+		(shape input)
+		(at 215.9 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "92cc9268-cfa8-42e5-b074-ababee450820")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 221.3647 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RIGHT"
+		(shape input)
+		(at 215.9 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97e04f9e-47f2-4cd0-933f-165f042d71c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.3281 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B2"
+		(shape input)
+		(at 215.9 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e9e1966-0d30-42f8-b85d-4060aeffa40d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 221.3647 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPACE"
+		(shape input)
+		(at 215.9 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a5b20b10-03e8-4588-8e98-31ef18dc4b93")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.8723 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "W"
+		(shape input)
+		(at 215.9 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "af75eb98-5f8a-4703-8bc5-d9d473db0a5e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.3366 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B3"
+		(shape input)
+		(at 215.9 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "afa04ae8-22d3-4abd-9e38-28bf15c8e499")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 221.3647 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DOWN"
+		(shape input)
+		(at 215.9 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b03cd04c-d8e5-4af1-80a7-34eba3ad2c49")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.2676 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6247,9 +6001,75 @@
 			)
 			(justify left)
 		)
-		(uuid "f2e9c53f-a539-4a5e-afe5-0094cda53e1a")
+		(uuid "bdd8f1de-9c1c-44bc-a74b-152710e78183")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 221.3647 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LEFT"
+		(shape input)
+		(at 215.9 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d79099fe-7459-4f9a-9d93-45cb8ccdc212")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.1185 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S1"
+		(shape input)
+		(at 215.9 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e3a3d96e-2148-4ce8-91ad-13de54b06ad5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 221.3042 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "L1"
+		(shape input)
+		(at 215.9 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ee249b3f-ffb6-4c06-bdb3-1bb0e0fd42c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 221.1228 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6710,6 +6530,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C26083"
+			(at 22.86 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "654ce9fb-8ee9-45e6-bf7f-585623a6591e")
 		)
@@ -6744,7 +6573,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "4.7u"
 			(at 95.25 40.64 0)
 			(effects
 				(font
@@ -6772,6 +6601,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 91.44 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15525"
 			(at 91.44 39.37 0)
 			(effects
 				(font
@@ -6915,6 +6753,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 205.74 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e48e1ba0-9168-46e2-aad4-5930fce33e15")
 		)
@@ -6925,73 +6772,6 @@
 			(project "leverless_controlller"
 				(path "/d4101bc9-65c8-46ec-b973-5d64e4a94ac0/8c80bd9b-e7f4-4fd2-8937-7b0f564b4108"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 30.48 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2e2efa87-0250-427f-b301-a3f5688ce3cb")
-		(property "Reference" "#PWR046"
-			(at 30.48 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 30.48 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "62df7c68-1e96-4a21-ad07-12d261f5c591")
-		)
-		(instances
-			(project ""
-				(path "/d4101bc9-65c8-46ec-b973-5d64e4a94ac0/8c80bd9b-e7f4-4fd2-8937-7b0f564b4108"
-					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -7022,7 +6802,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 137.16 71.628 90)
 			(effects
 				(font
@@ -7042,6 +6822,15 @@
 		)
 		(property "Description" ""
 			(at 137.16 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25190"
+			(at 137.16 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7081,7 +6870,7 @@
 				)
 			)
 		)
-		(property "Value" "ABM8-272-T3"
+		(property "Value" "12 mhz crystal"
 			(at 43.18 104.14 90)
 			(effects
 				(font
@@ -7116,7 +6905,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C20625731"
+		(property "LCSC" "C9002"
 			(at 43.18 113.03 90)
 			(effects
 				(font
@@ -7192,6 +6981,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 246.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 246.38 34.29 0)
 			(effects
 				(font
@@ -7334,6 +7132,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1548"
+			(at 30.48 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e82354b1-71a4-4144-a92d-f867121c61a2")
 		)
@@ -7404,6 +7211,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 200.66 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d7da7c70-c969-48a8-9b0e-eb5b868d2ce3")
 		)
@@ -7466,6 +7282,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 90.17 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 90.17 147.32 0)
 			(effects
 				(font
@@ -7608,6 +7433,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C11702"
+			(at 55.88 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3f99cecb-4696-4780-9c55-ae9ce0b35c57")
 		)
@@ -7677,6 +7511,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 226.06 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "312c9f77-94ea-4a48-8fdc-a845420e2958")
 		)
@@ -7711,7 +7554,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "4.7u"
 			(at 123.19 40.64 0)
 			(effects
 				(font
@@ -7739,6 +7582,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 119.38 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15525"
 			(at 119.38 39.37 0)
 			(effects
 				(font
@@ -7790,7 +7642,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fightstick_Library:Debug_Points"
+		(property "Footprint" "Leverless_Controller_Library:Debug_Points"
 			(at 100.33 104.14 0)
 			(effects
 				(font
@@ -7881,6 +7733,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 184.15 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2040"
 			(at 184.15 106.68 0)
 			(effects
 				(font
@@ -8123,6 +7984,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 215.9 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e1f550ef-211d-440a-a61a-1d7e566d964d")
 		)
@@ -8156,7 +8026,7 @@
 				)
 			)
 		)
-		(property "Value" "NCP1117-3.3_SOT223"
+		(property "Value" "AMS1117-3.3_SOT223"
 			(at 104.14 30.48 0)
 			(effects
 				(font
@@ -8191,7 +8061,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C26537"
+		(property "LCSC" "C6186"
 			(at 104.14 34.29 0)
 			(effects
 				(font
@@ -8243,7 +8113,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 137.16 80.518 90)
 			(effects
 				(font
@@ -8263,6 +8133,15 @@
 		)
 		(property "Description" ""
 			(at 137.16 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25190"
+			(at 137.16 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8339,6 +8218,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 236.22 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2ccf57ae-eee5-4a98-b0b8-676f48b4edb3")
 		)
@@ -8380,7 +8268,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fightstick_Library:USB_C_Receptacle_HCTL_Fightstick_16P_TopMnt_Horizontal"
+		(property "Footprint" "Leverless_Controller_Library:USB_C_Receptacle_C6332272"
 			(at 34.29 49.53 0)
 			(effects
 				(font
@@ -8407,7 +8295,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C6332272"
+		(property "LCSC" "C6332272"
 			(at 30.48 49.53 0)
 			(effects
 				(font
@@ -8728,6 +8616,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 256.54 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c06adca8-f1de-484f-a45a-31474f391606")
 		)
@@ -8744,7 +8641,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_Shielded")
+		(lib_id "Switch:SW_Push")
 		(at 30.48 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8761,7 +8658,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DIP_x01"
+		(property "Value" "Memory Reset"
 			(at 30.48 154.94 0)
 			(effects
 				(font
@@ -8769,7 +8666,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fightstick_Library:SW_SMD_BUTTON_YTS_A007"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
 			(at 30.48 154.94 0)
 			(effects
 				(font
@@ -8787,7 +8684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic push-button switch, two contact pins and shield pin(s)"
+		(property "Description" "Push button switch, generic, two pins"
 			(at 30.48 160.02 0)
 			(effects
 				(font
@@ -8796,7 +8693,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C2910660"
+		(property "LCSC" "C318884"
 			(at 30.48 160.02 0)
 			(effects
 				(font
@@ -8810,9 +8707,6 @@
 		)
 		(pin "2"
 			(uuid "1a955a89-0f08-4642-8df8-dfcccb8c94a4")
-		)
-		(pin "0"
-			(uuid "4b9f2518-f718-4ba8-97dd-9e314bcf03ab")
 		)
 		(instances
 			(project "leverless_controlller"
@@ -9009,6 +8903,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f6052718-7582-4a4f-a63c-ee43d8a0b588")
 		)
@@ -9136,6 +9039,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 165.1 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 165.1 34.29 0)
 			(effects
 				(font
@@ -9411,6 +9323,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 266.7 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c42760a7-f9f6-466f-99af-b8fdb214a990")
 		)
@@ -9538,6 +9459,15 @@
 		)
 		(property "Description" ""
 			(at 30.48 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1548"
+			(at 30.48 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9711,7 +9641,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.11K"
+		(property "Value" "5.1K"
 			(at 68.58 49.53 0)
 			(effects
 				(font
@@ -9739,6 +9669,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 66.04 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25905"
 			(at 66.04 48.26 0)
 			(effects
 				(font
@@ -10045,7 +9984,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.11K"
+		(property "Value" "5.1K"
 			(at 80.01 49.53 0)
 			(effects
 				(font
@@ -10073,6 +10012,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 77.47 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25905"
 			(at 77.47 48.26 0)
 			(effects
 				(font
@@ -10251,7 +10199,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "W25Q16JVSS"
+		(property "Value" "W25Q128JVSIQ"
 			(at 87.63 168.91 0)
 			(effects
 				(font
@@ -10287,7 +10235,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "C131025"
+		(property "LCSC" "C97521"
 			(at 78.74 167.64 0)
 			(effects
 				(font
@@ -10383,6 +10331,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 171.45 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bd4a14ab-d972-44d0-b63c-badd1513b2ba")
 		)
@@ -10444,6 +10401,15 @@
 		)
 		(property "Description" ""
 			(at 45.72 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 45.72 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
