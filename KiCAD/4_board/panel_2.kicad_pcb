@@ -354,7 +354,7 @@
 		(at 117.483943 117.8)
 		(descr "Cherry MX keyswitch PCB Mount")
 		(tags "Cherry MX Keyboard Keyswitch Switch PCB Cutout")
-		(property "Reference" "SW2_LK1"
+		(property "Reference" "SW2_LK"
 			(at 0 -8 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -3994,7 +3994,7 @@
 		(at 142.483943 103.8)
 		(descr "Cherry MX keyswitch PCB Mount")
 		(tags "Cherry MX Keyboard Keyswitch Switch PCB Cutout")
-		(property "Reference" "SW3_MK1"
+		(property "Reference" "SW3_MK"
 			(at 0 -8 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -4928,17 +4928,16 @@
 			(uuid "b08a2b07-3e06-4926-9803-5ff074d4cc05")
 		)
 	)
-	(footprint "Button_Switch_THT:SW_SPST_Omron_B3F-40xx"
+	(footprint "Fightstick_Library:SW_SPST_6x12"
 		(layer "F.Cu")
 		(uuid "8b74c2d4-1e3d-4797-8855-4e263932c48a")
 		(at 170.08 55.05 90)
 		(descr "SW_THT_Tactile_Omron_B3F-40xx, 12x12 mm, Through hole switch from the B3F Family manufactured by Omron,  https://www.omron.com/ecb/products/pdf/en-b3f.pdf")
 		(tags "tactile switch THT button push B3F-4000 B3F-4050 B3F-4005 B3F-4055  ")
-		(property "Reference" "SW14_PS1"
-			(at 6.25 -4.5 90)
-			(unlocked yes)
+		(property "Reference" "SW14_PS"
+			(at 6.25 -4.5 270)
 			(layer "F.SilkS")
-			(uuid "5b85c7d4-d894-4d5a-bf30-de48f46d2968")
+			(uuid "7a041883-8839-43ee-a489-6cbf63359ab6")
 			(effects
 				(font
 					(size 1 1)
@@ -4948,9 +4947,8 @@
 		)
 		(property "Value" "SW_Push"
 			(at 6.25 10.8 90)
-			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "0fd4cdd7-6ef1-413b-a477-a6e221cb781a")
+			(uuid "3eaeb0cb-7074-4874-ab05-baaeaed74983")
 			(effects
 				(font
 					(size 1 1)
@@ -4958,12 +4956,12 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_SPST_Omron_B3F-40xx"
+		(property "Footprint" "Fightstick_Library:SW_SPST_6x12"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2144f0ef-8609-4354-8c09-7eb65e135980")
+			(uuid "25d629e1-d016-4e2a-a76d-6291fe4ac7c6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4976,7 +4974,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9cd941cd-1993-4962-a25e-1112555c57c5")
+			(uuid "b6c661a6-660d-4929-bfc5-5c1c5f4b96a4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4989,7 +4987,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2b981a27-c724-4d0e-b1f4-43186da8104b")
+			(uuid "0386b7ac-bf7c-4ab8-b4c4-cfad74e5943f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5007,7 +5005,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "81d7ccac-efb1-4e6a-83ec-751e12f2c06e")
+			(uuid "6edfa464-78e0-4c86-9cd8-50648f52fe38")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -5017,7 +5015,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "5ecef34a-585d-4a46-8fdd-e05ffca19b2f")
+			(uuid "6afb2c65-8bd1-47ad-a1c2-7fbfac404072")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -5027,7 +5025,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "d9096a55-aaf7-4206-88f2-109faf6e4e33")
+			(uuid "a1b793c8-8421-49ec-8852-2da368954a62")
 		)
 		(fp_line
 			(start 12.36 1.2)
@@ -5037,7 +5035,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "6edc2701-a207-44dd-adb1-a3766715e194")
+			(uuid "1578ec4b-1c5a-4a17-ab8c-9214aa0943f7")
 		)
 		(fp_line
 			(start 0.14 1.2)
@@ -5047,7 +5045,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "7cd893ee-cfb2-452a-896b-57525771683a")
+			(uuid "7d6bc8bb-9815-4887-a8c1-7a05d6abf5e4")
 		)
 		(fp_line
 			(start 12.36 6.1)
@@ -5057,7 +5055,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "6b38932a-5958-4b48-814e-67de94cecf36")
+			(uuid "ea51aec6-903a-4ac7-9a81-3fe2a542384d")
 		)
 		(fp_line
 			(start 0.14 6.1)
@@ -5067,7 +5065,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "40a7a44d-66d3-4c4f-afce-2d626f282af1")
+			(uuid "c29260cf-e0b9-44e9-8602-26f04885cf52")
 		)
 		(fp_line
 			(start 12.36 8.61)
@@ -5077,7 +5075,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "6e16c2c1-a3cc-44d7-9429-aff11a48b74a")
+			(uuid "bcd72254-6267-4972-afc4-42b7f7b54708")
 		)
 		(fp_rect
 			(start -1.5 -4.75)
@@ -5088,7 +5086,7 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "ce5a54dc-dd66-4b39-91b5-890264c659b9")
+			(uuid "f2ff5afb-82b3-4fc7-b30d-aa74dc906324")
 		)
 		(fp_rect
 			(start 0.25 -3.5)
@@ -5099,7 +5097,7 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "ee1a54df-8d78-49bc-9094-2e2aed69288c")
+			(uuid "77842113-4ab8-48c0-84e0-9cf2875b18a8")
 		)
 		(fp_circle
 			(center 6.25 2.5)
@@ -5110,32 +5108,18 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "a34d6cd3-8261-4bf9-a411-2006b3fef1ba")
+			(uuid "5480fe64-2b69-4d73-a7f3-198a7384e227")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.25 2.5 90)
 			(layer "F.Fab")
-			(uuid "94687368-c4cd-4f5d-894e-57f35d992e8d")
+			(uuid "902eba28-f7ed-408c-bb07-021fb9201c87")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
 			)
-		)
-		(pad "" np_thru_hole circle
-			(at 6.25 -2 90)
-			(size 1.8 1.8)
-			(drill 1.8)
-			(layers "F&B.Cu" "*.Mask")
-			(uuid "ac33cf81-c9a7-43fe-aea0-a4fbb857f79b")
-		)
-		(pad "" np_thru_hole circle
-			(at 6.25 7 90)
-			(size 1.8 1.8)
-			(drill 1.8)
-			(layers "F&B.Cu" "*.Mask")
-			(uuid "c52b5764-51c8-4d45-a2aa-115b09dd324b")
 		)
 		(pad "1" thru_hole oval
 			(at 0 0 90)
@@ -5146,7 +5130,7 @@
 			(net 4 "/Buttons/A1")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "b9eb91f5-8218-446a-a3e7-f31a849f9a1e")
+			(uuid "cfe7a873-4f78-4274-a052-9c12771382a8")
 		)
 		(pad "1" thru_hole oval
 			(at 12.5 0 90)
@@ -5157,7 +5141,7 @@
 			(net 4 "/Buttons/A1")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "dd0b7c17-67bf-4ed5-abe0-ec98c1a9023f")
+			(uuid "530ad9c4-c3b9-41f5-8322-507f953c90e7")
 		)
 		(pad "2" thru_hole oval
 			(at 0 5 90)
@@ -5168,7 +5152,7 @@
 			(net 1 "GND")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "77134b85-e9fd-4d28-b29f-9751289fd1f6")
+			(uuid "ef5f1c5e-e91b-46da-9e31-68a33ed247cb")
 		)
 		(pad "2" thru_hole oval
 			(at 12.5 5 90)
@@ -5179,7 +5163,7 @@
 			(net 1 "GND")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "c856aa66-2b9f-452a-ae79-df41d138d65a")
+			(uuid "e82fa78f-48fa-47c4-a576-2b159c062721")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_SPST_Omron_B3F-40xx.wrl"
 			(offset
@@ -6214,7 +6198,7 @@
 		(at 117.483943 88.8)
 		(descr "Cherry MX keyswitch PCB Mount")
 		(tags "Cherry MX Keyboard Keyswitch Switch PCB Cutout")
-		(property "Reference" "SW4_LP1"
+		(property "Reference" "SW4_LP"
 			(at 0 -8 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -6502,17 +6486,16 @@
 			)
 		)
 	)
-	(footprint "Button_Switch_THT:SW_SPST_Omron_B3F-40xx"
+	(footprint "Fightstick_Library:SW_SPST_6x12"
 		(layer "F.Cu")
 		(uuid "95adbe6c-de0c-41b1-a21a-5c8a5eaa58c8")
 		(at 140.08 55.05 90)
 		(descr "SW_THT_Tactile_Omron_B3F-40xx, 12x12 mm, Through hole switch from the B3F Family manufactured by Omron,  https://www.omron.com/ecb/products/pdf/en-b3f.pdf")
 		(tags "tactile switch THT button push B3F-4000 B3F-4050 B3F-4005 B3F-4055  ")
-		(property "Reference" "SW11_START1"
-			(at 6.25 -4.5 90)
-			(unlocked yes)
+		(property "Reference" "SW11_START"
+			(at 6.25 -4.5 270)
 			(layer "F.SilkS")
-			(uuid "905510c4-aab3-4947-9600-bf0b6a7aeba4")
+			(uuid "ac32bc15-22fb-4015-8d0c-2cbad1490fc3")
 			(effects
 				(font
 					(size 1 1)
@@ -6522,9 +6505,8 @@
 		)
 		(property "Value" "SW_Push"
 			(at 6.25 10.8 90)
-			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "ce604c6d-118d-4bdf-b0d3-4f4c237624a2")
+			(uuid "b370e680-936d-44ac-b6e5-8105742a8973")
 			(effects
 				(font
 					(size 1 1)
@@ -6532,12 +6514,12 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_SPST_Omron_B3F-40xx"
+		(property "Footprint" "Fightstick_Library:SW_SPST_6x12"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "67cf944a-c17e-4185-8a35-6a6e2a498a8e")
+			(uuid "f438e6c1-e70f-47c7-b206-8fc50a5c8caf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6550,7 +6532,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bbcf4d6b-b52a-4741-825f-7e81f5460b5c")
+			(uuid "9ed5ec58-3a9c-4469-a2aa-cb5dba4bcfc5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6563,7 +6545,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "da87e81f-e15b-4731-9c35-271927fdbbd9")
+			(uuid "5fcff7d0-d9bb-4054-9429-9db050b90400")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6581,7 +6563,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "bf4e96e7-ba3d-41e9-96d5-c2383b1b4209")
+			(uuid "5ba2e8c2-bb31-426c-9dc2-edc1d551a7bc")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -6591,7 +6573,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "377118c2-9745-4f5a-b5ba-94bdbd4f419b")
+			(uuid "17727159-2bdc-499e-9784-42466581d55d")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -6601,7 +6583,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "2a14c1d3-c490-494b-830b-6a92c81a04ca")
+			(uuid "31eb3e79-73f2-4462-b85d-e6fb993026b9")
 		)
 		(fp_line
 			(start 12.36 1.2)
@@ -6611,7 +6593,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "208fa5f8-c20a-4565-a9be-b54ddadabde5")
+			(uuid "d7596713-917d-4b19-bd37-0956a97d27af")
 		)
 		(fp_line
 			(start 0.14 1.2)
@@ -6621,7 +6603,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "7976fa3c-43dc-4c30-a5b9-9537dffe42b9")
+			(uuid "c250287e-2175-4bf7-a6c7-6359fdade37d")
 		)
 		(fp_line
 			(start 12.36 6.1)
@@ -6631,7 +6613,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "cc49c08a-23c1-4f4f-a8c0-cba9d49cac85")
+			(uuid "3e3fd635-6b27-4922-bce9-39be05fc2c70")
 		)
 		(fp_line
 			(start 0.14 6.1)
@@ -6641,7 +6623,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "d64b4f09-38a1-432f-af27-01ab5d1458f1")
+			(uuid "92d543c4-5366-450e-8cd2-9560306f9def")
 		)
 		(fp_line
 			(start 12.36 8.61)
@@ -6651,7 +6633,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "1b1b7294-ec2a-45bd-b83c-f6d5b5480f19")
+			(uuid "2b172ada-135e-4562-8688-32a11db04cb9")
 		)
 		(fp_rect
 			(start -1.5 -4.75)
@@ -6662,7 +6644,7 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "226338a8-efe5-4afa-8174-b09db1369fbe")
+			(uuid "ff25711a-fe76-428e-8c3a-955096099c3d")
 		)
 		(fp_rect
 			(start 0.25 -3.5)
@@ -6673,7 +6655,7 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "ad80aee9-2d3b-4d61-9a3b-30549bfc49a7")
+			(uuid "4566a0d6-75f9-4515-a8b3-01bfd2e0d442")
 		)
 		(fp_circle
 			(center 6.25 2.5)
@@ -6684,32 +6666,18 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "d6717f4c-af64-4f45-a736-db76d174fac8")
+			(uuid "2ad3fb4c-67c9-4683-a766-63dc4c41f1c9")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.25 2.5 90)
 			(layer "F.Fab")
-			(uuid "e40e274e-b32e-4f43-8c9b-038fbc5cb576")
+			(uuid "f9a53d73-7d76-481b-9978-95c5fba5b83a")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
 			)
-		)
-		(pad "" np_thru_hole circle
-			(at 6.25 -2 90)
-			(size 1.8 1.8)
-			(drill 1.8)
-			(layers "F&B.Cu" "*.Mask")
-			(uuid "d45678a5-b15f-4970-aa7f-d64ed37185c9")
-		)
-		(pad "" np_thru_hole circle
-			(at 6.25 7 90)
-			(size 1.8 1.8)
-			(drill 1.8)
-			(layers "F&B.Cu" "*.Mask")
-			(uuid "19db4fcf-3662-493a-b2cf-382b3939b0ae")
 		)
 		(pad "1" thru_hole oval
 			(at 0 0 90)
@@ -6720,7 +6688,7 @@
 			(net 2 "/Buttons/S2")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "732ca2fb-77b4-4721-b5c6-90d40154a18e")
+			(uuid "527b5745-c4e6-4a18-8de1-84f03d44d6f6")
 		)
 		(pad "1" thru_hole oval
 			(at 12.5 0 90)
@@ -6731,7 +6699,7 @@
 			(net 2 "/Buttons/S2")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "7b0630de-a2f9-4cce-ac28-d78713025c87")
+			(uuid "cd48a178-71e6-4e8d-9894-2a53ab18503c")
 		)
 		(pad "2" thru_hole oval
 			(at 0 5 90)
@@ -6742,7 +6710,7 @@
 			(net 1 "GND")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "1884699b-adac-4583-9200-8072ad6ff424")
+			(uuid "aa4d4719-7a12-4204-b0b9-c534f827bd70")
 		)
 		(pad "2" thru_hole oval
 			(at 12.5 5 90)
@@ -6753,7 +6721,7 @@
 			(net 1 "GND")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "39240ef0-33bb-455d-9137-d41cb6cc73d2")
+			(uuid "8e08e307-b352-4033-bb78-f468fa846611")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_SPST_Omron_B3F-40xx.wrl"
 			(offset
@@ -6773,7 +6741,7 @@
 		(at 171.483943 103.8)
 		(descr "Cherry MX keyswitch PCB Mount")
 		(tags "Cherry MX Keyboard Keyswitch Switch PCB Cutout")
-		(property "Reference" "SW9_HK1"
+		(property "Reference" "SW9_HK"
 			(at 0 -8 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -7390,7 +7358,7 @@
 		(at 142.483943 74.8)
 		(descr "Cherry MX keyswitch PCB Mount")
 		(tags "Cherry MX Keyboard Keyswitch Switch PCB Cutout")
-		(property "Reference" "SW5_MP1"
+		(property "Reference" "SW5_MP"
 			(at 0 -8 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -8007,7 +7975,7 @@
 		(at 171.483943 74.8)
 		(descr "Cherry MX keyswitch PCB Mount")
 		(tags "Cherry MX Keyboard Keyswitch Switch PCB Cutout")
-		(property "Reference" "SW7_HP1"
+		(property "Reference" "SW7_HP"
 			(at 0 -8 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -9632,17 +9600,16 @@
 			(uuid "f2250d39-5d4c-41b7-9c2e-0770a80da44a")
 		)
 	)
-	(footprint "Button_Switch_THT:SW_SPST_Omron_B3F-40xx"
+	(footprint "Fightstick_Library:SW_SPST_6x12"
 		(layer "F.Cu")
 		(uuid "eb75a855-c372-4edc-b30e-fd8ab50e566e")
 		(at 185.08 55.05 90)
 		(descr "SW_THT_Tactile_Omron_B3F-40xx, 12x12 mm, Through hole switch from the B3F Family manufactured by Omron,  https://www.omron.com/ecb/products/pdf/en-b3f.pdf")
 		(tags "tactile switch THT button push B3F-4000 B3F-4050 B3F-4005 B3F-4055  ")
-		(property "Reference" "SW15_TOUCHPAD1"
-			(at 6.25 -4.5 90)
-			(unlocked yes)
+		(property "Reference" "SW15_TOUCHPAD"
+			(at 6.25 -4.5 270)
 			(layer "F.SilkS")
-			(uuid "f7790995-4f55-4b1f-ac12-6867045ddc9d")
+			(uuid "7f954a1e-b5aa-4ba4-9383-48625bc4883d")
 			(effects
 				(font
 					(size 1 1)
@@ -9652,9 +9619,8 @@
 		)
 		(property "Value" "SW_Push"
 			(at 6.25 10.8 90)
-			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "429a2116-4572-416f-95ef-355afa42be9e")
+			(uuid "2ee4c7af-8e55-482b-8bff-1615d9835e10")
 			(effects
 				(font
 					(size 1 1)
@@ -9662,12 +9628,12 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_SPST_Omron_B3F-40xx"
+		(property "Footprint" "Fightstick_Library:SW_SPST_6x12"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7735a4a6-af0f-428d-bce2-36c846726d78")
+			(uuid "fed1b827-ba39-4d69-bf8c-1589539d284b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9680,7 +9646,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "54faa221-af9a-4d1b-b303-ce90e47df657")
+			(uuid "cf85deef-1076-4da0-bf84-91b367671e4d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9693,7 +9659,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a91459af-3983-418b-afc0-849859ce7a5e")
+			(uuid "c57f1c2b-7897-40ce-928e-d6d90804275e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9711,7 +9677,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "f7da0bde-8264-46f5-9c7a-11de017126c3")
+			(uuid "4c124515-8c1b-4711-8946-6e45ac182ea9")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -9721,7 +9687,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "f12a0772-58d0-4a90-8338-c8455a5d76e6")
+			(uuid "a974d3a1-9ade-491f-8207-8bdfd40b4d9f")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -9731,7 +9697,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "bdfb9447-b5d7-434d-af30-6a603da9b73b")
+			(uuid "bafeffd8-fe89-4de3-85cc-d1281a85f615")
 		)
 		(fp_line
 			(start 12.36 1.2)
@@ -9741,7 +9707,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "497b6a69-1928-4c37-a9d4-f3c41773d6cc")
+			(uuid "83f5cc7d-3f5d-4991-a38c-da3163c428e5")
 		)
 		(fp_line
 			(start 0.14 1.2)
@@ -9751,7 +9717,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "8d376a62-64a3-4cf4-b493-1b2df384e00e")
+			(uuid "3dd7808b-284d-496c-868d-938ca28390b5")
 		)
 		(fp_line
 			(start 12.36 6.1)
@@ -9761,7 +9727,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "37cde8a1-632a-4e80-ad2a-466b0d3093ef")
+			(uuid "62db3ed9-f1d6-40b2-9d23-9fee5247688c")
 		)
 		(fp_line
 			(start 0.14 6.1)
@@ -9771,7 +9737,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "57048301-de1d-43fe-8764-686ce1ac1504")
+			(uuid "34d6b8de-46bd-41bc-8e9d-e370d8d6a64a")
 		)
 		(fp_line
 			(start 12.36 8.61)
@@ -9781,7 +9747,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "3a1efa04-0af7-4fc5-8fdf-a3538ec519f4")
+			(uuid "7982cee7-7831-4f17-a3dc-fdff48c766c0")
 		)
 		(fp_rect
 			(start -1.5 -4.75)
@@ -9792,7 +9758,7 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "2b782177-164c-4f98-8ccc-b2de8d4064a1")
+			(uuid "2db57d88-e2e3-46a2-b56c-a706932ceeb0")
 		)
 		(fp_rect
 			(start 0.25 -3.5)
@@ -9803,7 +9769,7 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "298c36cf-efe7-4e47-9f38-ce0e509c3de2")
+			(uuid "85acaf59-7fc1-429d-a9bd-da63104b37bd")
 		)
 		(fp_circle
 			(center 6.25 2.5)
@@ -9814,32 +9780,18 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "1a3251c2-0ba9-4212-ac29-3a90eeb3ef4f")
+			(uuid "18425f0b-0c92-4342-8505-f2e3cf4b1863")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.25 2.5 90)
 			(layer "F.Fab")
-			(uuid "c201f614-321d-4614-9caa-9851253efaba")
+			(uuid "1c40b027-a4f8-477f-9a78-4e8cc6a5dcfa")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
 			)
-		)
-		(pad "" np_thru_hole circle
-			(at 6.25 -2 90)
-			(size 1.8 1.8)
-			(drill 1.8)
-			(layers "F&B.Cu" "*.Mask")
-			(uuid "56ccefec-5f7a-4bb3-b378-926b24fee7df")
-		)
-		(pad "" np_thru_hole circle
-			(at 6.25 7 90)
-			(size 1.8 1.8)
-			(drill 1.8)
-			(layers "F&B.Cu" "*.Mask")
-			(uuid "fa6ed09b-c36e-4b26-8010-0047b436cdae")
 		)
 		(pad "1" thru_hole oval
 			(at 0 0 90)
@@ -9850,7 +9802,7 @@
 			(net 5 "/Buttons/A2")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "b2a59fd4-62ae-45e2-b79e-692851bca30a")
+			(uuid "ede4ea08-1158-47e9-89bd-e17fb203ca3f")
 		)
 		(pad "1" thru_hole oval
 			(at 12.5 0 90)
@@ -9861,7 +9813,7 @@
 			(net 5 "/Buttons/A2")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "ff05bf52-c284-4f0f-9d00-1edcd31dabfa")
+			(uuid "2e5f929f-f877-4dd5-a9da-a9b08f427d7a")
 		)
 		(pad "2" thru_hole oval
 			(at 0 5 90)
@@ -9872,7 +9824,7 @@
 			(net 1 "GND")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "0d03427f-4be8-4348-bd49-b0949aa4d6eb")
+			(uuid "03c6c89a-ea07-4d66-9a29-4047151ea907")
 		)
 		(pad "2" thru_hole oval
 			(at 12.5 5 90)
@@ -9883,7 +9835,7 @@
 			(net 1 "GND")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "275dee4f-73ee-4c53-bab8-0dbaccb5dff0")
+			(uuid "c9d1c851-8aba-4469-aef5-951bea13d859")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_SPST_Omron_B3F-40xx.wrl"
 			(offset
@@ -10113,7 +10065,7 @@
 		(at 178.904124 128.524094 90)
 		(descr "Cherry MX keyswitch PCB Mount")
 		(tags "Cherry MX Keyboard Keyswitch Switch PCB Cutout")
-		(property "Reference" "SW12_THROW1"
+		(property "Reference" "SW12_THROW"
 			(at 0 -8 90)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -10407,7 +10359,7 @@
 		(at 117.664257 59.800561)
 		(descr "Cherry MX keyswitch PCB Mount")
 		(tags "Cherry MX Keyboard Keyswitch Switch PCB Cutout")
-		(property "Reference" "SW6_DI1"
+		(property "Reference" "SW6_DI"
 			(at 0 -8 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -10906,17 +10858,16 @@
 			(uuid "7f88f5ad-8342-4257-903e-1940d136d3dc")
 		)
 	)
-	(footprint "Button_Switch_THT:SW_SPST_Omron_B3F-40xx"
+	(footprint "Fightstick_Library:SW_SPST_6x12"
 		(layer "F.Cu")
 		(uuid "f54f7184-f7e0-47ae-8b41-fb63c6a8f079")
 		(at 155.08 55.05 90)
 		(descr "SW_THT_Tactile_Omron_B3F-40xx, 12x12 mm, Through hole switch from the B3F Family manufactured by Omron,  https://www.omron.com/ecb/products/pdf/en-b3f.pdf")
 		(tags "tactile switch THT button push B3F-4000 B3F-4050 B3F-4005 B3F-4055  ")
-		(property "Reference" "SW10_SHARE1"
-			(at 6.25 -4.5 90)
-			(unlocked yes)
+		(property "Reference" "SW10_SHARE"
+			(at 6.25 -4.5 270)
 			(layer "F.SilkS")
-			(uuid "cc302b54-604c-405b-ae79-71c8b5632bdc")
+			(uuid "c4a568e1-6537-4dae-a820-360ac4f63961")
 			(effects
 				(font
 					(size 1 1)
@@ -10926,9 +10877,8 @@
 		)
 		(property "Value" "SW_Push"
 			(at 6.25 10.8 90)
-			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "83747855-1ef3-4911-b782-5f98a0bd532a")
+			(uuid "60207a6e-66dc-4010-9190-76f71ea2e358")
 			(effects
 				(font
 					(size 1 1)
@@ -10936,12 +10886,12 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_SPST_Omron_B3F-40xx"
+		(property "Footprint" "Fightstick_Library:SW_SPST_6x12"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "98beaf21-e8c3-40a1-b2dd-406f19d18618")
+			(uuid "a1c6be91-b12f-4fe4-8935-612530f8164b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10954,7 +10904,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1d39fa08-70d9-4dd8-a929-2098f5547651")
+			(uuid "7abfec04-6608-457d-bae5-cd4de5fb365b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10967,7 +10917,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1680bc34-9c7d-45e4-bdc1-55ab3e7a3a17")
+			(uuid "303d1235-a814-4534-bb94-1c579d41ae26")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10985,7 +10935,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "6785f0da-1945-4d75-bfcb-0c18209d6770")
+			(uuid "fafe8f50-0b6c-4982-8fd8-11be4b16a786")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -10995,7 +10945,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "fc931901-f1b7-453f-a3fd-6723a0d8c4e5")
+			(uuid "2f8373bd-450e-4e96-a0e6-cfeb383cb63a")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -11005,7 +10955,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "ce6621b5-0800-4d8b-87ee-2ebd70bc2c96")
+			(uuid "9431b7e1-ae6e-4813-8944-2265da7105c8")
 		)
 		(fp_line
 			(start 12.36 1.2)
@@ -11015,7 +10965,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "a2c70f89-b2e1-4abb-887f-c75e3c4dab1b")
+			(uuid "7bb275d7-2cb0-423d-847c-2f5c8beba546")
 		)
 		(fp_line
 			(start 0.14 1.2)
@@ -11025,7 +10975,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "5ec9b02e-8c75-4122-95ba-5a457d0f5103")
+			(uuid "d77673fd-833b-4f50-9aec-c401ed6cab81")
 		)
 		(fp_line
 			(start 12.36 6.1)
@@ -11035,7 +10985,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "74eb3c65-2208-4f32-9465-c96a1d4129a7")
+			(uuid "45fd915c-e2a2-476d-884a-6dbfc96ec955")
 		)
 		(fp_line
 			(start 0.14 6.1)
@@ -11045,7 +10995,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "1b905d94-72f6-4fcd-b3f7-4016905151ea")
+			(uuid "29eb022c-1d96-46ab-b18a-29211149156f")
 		)
 		(fp_line
 			(start 12.36 8.61)
@@ -11055,7 +11005,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "23b957ec-ed52-4048-8169-cff96bbc3869")
+			(uuid "d463f188-08b9-4ffc-9e46-2d49a2b32f32")
 		)
 		(fp_rect
 			(start -1.5 -4.75)
@@ -11066,7 +11016,7 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "b77f9f16-b1b7-48ac-a617-664f698796c7")
+			(uuid "c447ad6f-a638-4da9-82a8-03a9b806a65f")
 		)
 		(fp_rect
 			(start 0.25 -3.5)
@@ -11077,7 +11027,7 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "dda36635-e42f-44ed-841f-90340bad6f77")
+			(uuid "ac4ba942-492b-4208-830f-96306023d404")
 		)
 		(fp_circle
 			(center 6.25 2.5)
@@ -11088,32 +11038,18 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "4dc74fd8-8953-4565-8406-55d5079bc8eb")
+			(uuid "3bccbc60-ad45-4df5-8197-3d17c7fdd737")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.25 2.5 90)
 			(layer "F.Fab")
-			(uuid "8cd908f0-aa08-4387-a184-dc6516d61084")
+			(uuid "ddb73c94-1813-44d6-9b35-d158ecfb6b59")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
 			)
-		)
-		(pad "" np_thru_hole circle
-			(at 6.25 -2 90)
-			(size 1.8 1.8)
-			(drill 1.8)
-			(layers "F&B.Cu" "*.Mask")
-			(uuid "da5626a2-f12f-4cee-9b7d-1a0b1f4876f7")
-		)
-		(pad "" np_thru_hole circle
-			(at 6.25 7 90)
-			(size 1.8 1.8)
-			(drill 1.8)
-			(layers "F&B.Cu" "*.Mask")
-			(uuid "0cde9c3b-95d5-4ec3-bdc7-3ab78b8538c1")
 		)
 		(pad "1" thru_hole oval
 			(at 0 0 90)
@@ -11124,7 +11060,7 @@
 			(net 3 "/Buttons/S1")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "9830aac7-a572-4b42-b3eb-ab9a28e0d750")
+			(uuid "8d2b2d21-32af-42c3-a540-338a10b1ded5")
 		)
 		(pad "1" thru_hole oval
 			(at 12.5 0 90)
@@ -11135,7 +11071,7 @@
 			(net 3 "/Buttons/S1")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "ea8426c9-3df9-4e48-be62-3e18c757dba5")
+			(uuid "1d32b00a-7b72-4193-b6c4-85eb7b4ff194")
 		)
 		(pad "2" thru_hole oval
 			(at 0 5 90)
@@ -11146,7 +11082,7 @@
 			(net 1 "GND")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "e55e8aae-ed5a-4efd-afd6-dfd909e7fcaa")
+			(uuid "e4ef72fe-dbaf-4dba-9347-4450d38a8053")
 		)
 		(pad "2" thru_hole oval
 			(at 12.5 5 90)
@@ -11157,7 +11093,7 @@
 			(net 1 "GND")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "39f73b0e-240b-468f-95d8-e65e85ac76a3")
+			(uuid "ae6e9191-5be8-4308-8d8b-4e013f3a29f4")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_SPST_Omron_B3F-40xx.wrl"
 			(offset

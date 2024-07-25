@@ -594,7 +594,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../STEP/4board_d.step",
       "svg": "",
       "vrml": ""
     },

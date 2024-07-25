@@ -52,13 +52,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        "hole_clearance|150530000|31795000|e25caf7f-5335-4f4d-809b-be62b041db1b|3e855fb4-48bc-4e71-b58c-052fe389285c",
-        "hole_clearance|150530000|31795000|e25caf7f-5335-4f4d-809b-be62b041db1b|c5e4fcb8-b73a-43c6-93ea-71655ba202b5",
-        "hole_clearance|156630000|31795000|3dd16e7d-43a9-4e03-9094-3315c5fb41ee|2afbf04e-ad8d-42f7-99ab-f3ca0c8b502f",
-        "hole_clearance|156630000|31795000|3dd16e7d-43a9-4e03-9094-3315c5fb41ee|feef3f72-1194-4fb4-926a-cba1a6d2d91c",
-        "unconnected_items|139740000|71811696|7c45184e-777e-4667-8c41-54b7b492b989|0ad96b6c-a324-4f93-bf79-d8ff2ac900cb"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -262,7 +256,7 @@
       "idf": "",
       "netlist": "",
       "plot": "fab_output/panel_1/",
-      "pos_files": "",
+      "pos_files": "fab_output/panel_1/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
