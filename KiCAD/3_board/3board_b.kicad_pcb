@@ -34285,6 +34285,22 @@
 		(uuid "1621fb68-132c-41a2-b2bf-c7ec820c27f8")
 	)
 	(segment
+		(start 162.235 54.308943)
+		(end 164.083943 52.46)
+		(width 0.15)
+		(layer "B.Cu")
+		(net 7)
+		(uuid "33af2c03-ef91-4ece-9311-b5fa883ae241")
+	)
+	(segment
+		(start 162.235 54.5)
+		(end 162.235 54.308943)
+		(width 0.15)
+		(layer "B.Cu")
+		(net 7)
+		(uuid "917526a1-aede-4af4-9e69-cc73a821f53c")
+	)
+	(segment
 		(start 164.083943 52.46)
 		(end 164.083943 51.848943)
 		(width 0.15)
