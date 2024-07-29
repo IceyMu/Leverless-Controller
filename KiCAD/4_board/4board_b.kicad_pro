@@ -270,7 +270,15 @@
     "netclass_patterns": [
       {
         "netclass": "Default",
-        "pattern": "Net-(J1-CC2)"
+        "pattern": "/Main/QSPI_SD3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Main/S1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Main/R1"
       },
       {
         "netclass": "Default",
@@ -282,51 +290,7 @@
       },
       {
         "netclass": "Default",
-        "pattern": "/Buttons/S2"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Main/SWCLK"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "LEFT"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(U1-GPIO21-Pad32)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(U1-GPIO27_ADC1-Pad39)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J1-CC1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(JP10-B)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(U1-GPIO0-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(U1-GPIO20-Pad31)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Main/S1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "+1V1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(JP27-A)"
+        "pattern": "Net-(JP13-B)"
       },
       {
         "netclass": "Default",
@@ -334,159 +298,7 @@
       },
       {
         "netclass": "Default",
-        "pattern": "W"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Buttons/B2"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(R5-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(U1-GPIO15-Pad18)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(JP2-B)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Buttons/L1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Buttons/A1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Main/XOUT"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(JP11-B)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Main/QSPI_SS"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Main/XIN"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Main/B2"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(U1-GPIO29_ADC3-Pad41)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(JP13-B)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(J1-SBU2-PadB8)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Buttons/L3"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Main/A1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Buttons/R2"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Main/B4"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Main/B3"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U1-USB_DM)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Main/QSPI_SD0"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Buttons/S1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "RIGHT"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "GND"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(U1-GPIO26_ADC0-Pad38)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(U1-GPIO28_ADC2-Pad40)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Buttons/B1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(JP25-A)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "L2"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(U1-GPIO22-Pad34)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(U1-GPIO23-Pad35)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(JP23-A)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Main/R2"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C4-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(JP22-A)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "DOWN"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Buttons/A2"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Main/L3"
+        "pattern": "Net-(JP24-A)"
       },
       {
         "netclass": "Default",
@@ -494,67 +306,47 @@
       },
       {
         "netclass": "Default",
-        "pattern": "/Main/R1"
+        "pattern": "+1V1"
       },
       {
         "netclass": "Default",
-        "pattern": "/Main/A2"
+        "pattern": "unconnected-(J1-SBU2-PadB8)"
       },
       {
         "netclass": "Default",
-        "pattern": "/Buttons/SPACE"
+        "pattern": "/Buttons/S1"
       },
       {
         "netclass": "Default",
-        "pattern": "/Main/QSPI_SD3"
+        "pattern": "/Buttons/L1"
       },
       {
         "netclass": "Default",
-        "pattern": "/Main/S2"
+        "pattern": "Net-(R5-Pad1)"
       },
       {
         "netclass": "Default",
-        "pattern": "/Main/B1"
+        "pattern": "Net-(U1-GPIO25)"
       },
       {
         "netclass": "Default",
-        "pattern": "/Main/QSPI_SD1"
+        "pattern": "Net-(JP26-A)"
       },
       {
         "netclass": "Default",
-        "pattern": "/Main/D+"
+        "pattern": "/Main/A1"
       },
       {
         "netclass": "Default",
-        "pattern": "/Main/D-"
+        "pattern": "Net-(D1-K)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(J1-CC1)"
       },
       {
         "netclass": "Default",
         "pattern": "/Main/L1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(J1-SBU1-PadA8)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Buttons/B3"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Buttons/R1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J1-SHIELD)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(JP12-B)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(U1-GPIO25-Pad37)"
       },
       {
         "netclass": "Default",
@@ -566,15 +358,91 @@
       },
       {
         "netclass": "Default",
-        "pattern": "/Buttons/B4"
+        "pattern": "/Buttons/L3"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(JP26-A)"
+        "pattern": "L2"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(JP24-A)"
+        "pattern": "/Buttons/B1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Main/B3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(J1-CC2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U1-GPIO26_ADC0-Pad38)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Main/QSPI_SD1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Buttons/A2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Buttons/S2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Main/SWCLK"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Main/L3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Main/P3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(JP2-B)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U1-GPIO0-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Main/P1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Main/B1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(JP12-B)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U1-GPIO28_ADC2-Pad40)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Main/XIN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Main/P4"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U1-GPIO27_ADC1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Main/B4"
       },
       {
         "netclass": "Default",
@@ -582,7 +450,143 @@
       },
       {
         "netclass": "Default",
+        "pattern": "/Main/B2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U1-USB_DM)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Buttons/B2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Buttons/R2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Main/QSPI_SD0"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Main/R2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "LEFT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(JP27-A)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Buttons/B4"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DOWN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "W"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(J1-SHIELD)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(JP11-B)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Main/D-"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(JP10-B)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(J1-SBU1-PadA8)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(JP22-A)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U1-GPIO15-Pad18)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Main/A2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(C4-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Buttons/R1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Buttons/SPACE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Main/QSPI_SS"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Buttons/B3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(JP25-A)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Main/XOUT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U1-GPIO29_ADC3-Pad41)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Main/P2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Buttons/A1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(JP23-A)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "RIGHT"
+      },
+      {
+        "netclass": "Default",
         "pattern": "/Main/SWDIO"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Main/D+"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Main/S2"
       }
     ]
   },

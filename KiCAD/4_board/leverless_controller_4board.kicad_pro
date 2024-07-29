@@ -58,7 +58,11 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "unconnected_items|139670000|115000000|f436f70e-3a32-4bba-9457-a1eaa40a4918|be44b1f5-093e-4a69-844f-f53a35bad9cb",
+        "unconnected_items|139720000|47250000|6f4d13ef-f8d2-4879-b89d-05c8a0e3597d|b81322fc-95b6-4627-9146-23ddb2fff8a1",
+        "unconnected_items|159300000|47250000|5e0601ac-f1bc-494d-9c50-9b9f765896e6|518a6ec6-228f-4bb9-93f5-7fb04809c2ba"
+      ],
       "meta": {
         "version": 2
       },

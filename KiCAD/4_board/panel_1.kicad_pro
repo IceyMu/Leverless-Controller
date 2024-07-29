@@ -51,8 +51,19 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        "hole_clearance|73330000|26445000|204cac89-7015-4c71-bf52-efff10c70960|c74793fc-c438-48a4-ace0-966ca6022bae",
+        "hole_clearance|73330000|26445000|204cac89-7015-4c71-bf52-efff10c70960|f22414c4-2c8d-4871-b361-16ce4fa8f230",
+        "hole_clearance|79430000|26445000|2e82f829-e2d4-4412-986c-d5a5db95873c|4679f0f3-dbb0-4452-8c25-3ed688802444",
+        "hole_clearance|79430000|26445000|2e82f829-e2d4-4412-986c-d5a5db95873c|83d2032b-4971-46bf-90b7-24517e1209f2"
+      ],
       "meta": {
         "version": 2
       },
@@ -171,7 +182,11 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.0,
+        0.8
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -198,7 +213,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {

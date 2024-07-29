@@ -899,7 +899,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 71.12 120.65 0)
 			(effects
 				(font
@@ -1099,7 +1099,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
 			(at 34.29 69.85 0)
 			(effects
 				(font
@@ -1299,7 +1299,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 71.12 156.21 0)
 			(effects
 				(font
@@ -1565,7 +1565,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 71.12 102.87 0)
 			(effects
 				(font
@@ -1699,7 +1699,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fightstick_Library:SW_SPST_6x12"
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB"
 			(at 34.29 173.99 0)
 			(effects
 				(font
@@ -1767,7 +1767,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
 			(at 71.12 85.09 0)
 			(effects
 				(font
@@ -1901,7 +1901,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
 			(at 69.85 20.32 0)
 			(effects
 				(font
@@ -1969,7 +1969,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
 			(at 34.29 36.83 0)
 			(effects
 				(font
@@ -2103,7 +2103,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fightstick_Library:SW_SPST_6x12"
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB"
 			(at 34.29 156.21 0)
 			(effects
 				(font
@@ -2237,7 +2237,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
 			(at 34.29 53.34 0)
 			(effects
 				(font
@@ -2305,7 +2305,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
 			(at 34.29 138.43 0)
 			(effects
 				(font
@@ -2571,7 +2571,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fightstick_Library:SW_SPST_6x12"
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB"
 			(at 71.12 69.85 0)
 			(effects
 				(font
@@ -2639,7 +2639,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fightstick_Library:SW_SPST_6x12"
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB"
 			(at 69.85 53.34 0)
 			(effects
 				(font
@@ -2773,7 +2773,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
 			(at 34.29 120.65 0)
 			(effects
 				(font
@@ -2841,7 +2841,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
 			(at 34.29 20.32 0)
 			(effects
 				(font
@@ -2909,7 +2909,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
 			(at 34.29 102.87 0)
 			(effects
 				(font
@@ -2977,7 +2977,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 			(at 71.12 138.43 0)
 			(effects
 				(font
@@ -3111,7 +3111,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX"
 			(at 34.29 85.09 0)
 			(effects
 				(font
