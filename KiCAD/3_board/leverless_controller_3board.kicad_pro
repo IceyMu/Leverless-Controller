@@ -58,7 +58,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "unconnected_items|138430000|94500000|c794ef12-d722-4f26-864c-a0b9c99b152a|01fca50c-1451-48c3-98c4-20c7dc7ae432",
+        "unconnected_items|159275000|94500000|01fca50c-1451-48c3-98c4-20c7dc7ae432|b4abeb12-37ab-4139-af62-3252637887d7"
+      ],
       "meta": {
         "version": 2
       },
@@ -97,8 +100,8 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "ignore",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -488,7 +491,7 @@
       "plot": "gerber/",
       "pos_files": "fab_output/",
       "specctra_dsn": "",
-      "step": "../STEP/leverless_controlller.step",
+      "step": "../../STEP/leverless_controller.step",
       "svg": "",
       "vrml": ""
     },
