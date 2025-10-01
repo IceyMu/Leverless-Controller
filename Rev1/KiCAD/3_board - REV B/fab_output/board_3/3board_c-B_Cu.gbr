@@ -1,0 +1,92 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.4*%
+%TF.CreationDate,2024-07-29T14:44:41-07:00*%
+%TF.ProjectId,3board_c,33626f61-7264-45f6-932e-6b696361645f,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Copper,L2,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.4) date 2024-07-29 14:44:41*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMRoundRect*
+0 Rectangle with rounded corners*
+0 $1 Rounding radius*
+0 $2 $3 $4 $5 $6 $7 $8 $9 X,Y pos of 4 corners*
+0 Add a 4 corners polygon primitive as box body*
+4,1,4,$2,$3,$4,$5,$6,$7,$8,$9,$2,$3,0*
+0 Add four circle primitives for the rounded corners*
+1,1,$1+$1,$2,$3*
+1,1,$1+$1,$4,$5*
+1,1,$1+$1,$6,$7*
+1,1,$1+$1,$8,$9*
+0 Add four rect primitives between the rounded corners*
+20,1,$1+$1,$2,$3,$4,$5,0*
+20,1,$1+$1,$4,$5,$6,$7,0*
+20,1,$1+$1,$6,$7,$8,$9,0*
+20,1,$1+$1,$8,$9,$2,$3,0*%
+G04 Aperture macros list end*
+%TA.AperFunction,SMDPad,CuDef*%
+%ADD10RoundRect,0.250000X-1.025000X-1.000000X1.025000X-1.000000X1.025000X1.000000X-1.025000X1.000000X0*%
+%TD*%
+%TA.AperFunction,ViaPad*%
+%ADD11C,0.800000*%
+%TD*%
+%TA.AperFunction,Conductor*%
+%ADD12C,0.800000*%
+%TD*%
+%TA.AperFunction,Conductor*%
+%ADD13C,0.150000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+%TO.P,SW12_THROW,1,1*%
+%TO.N,/Buttons/L3*%
+X140830906Y-27314124D03*
+%TO.P,SW12_THROW,2,2*%
+%TO.N,GND*%
+X153757906Y-24774124D03*
+%TD*%
+%TO.P,SW16_SPACE,1,1*%
+%TO.N,/Buttons/SPACE*%
+X141355000Y-102970000D03*
+%TO.P,SW16_SPACE,2,2*%
+%TO.N,GND*%
+X154282000Y-100430000D03*
+%TD*%
+D11*
+%TO.N,GND*%
+X146000000Y-64000000D03*
+%TO.N,/Buttons/L3*%
+X139500000Y-24500000D03*
+%TO.N,/Buttons/SPACE*%
+X141000000Y-97000000D03*
+%TD*%
+D12*
+%TO.N,GND*%
+X154282000Y-100430000D02*
+X154282000Y-72282000D01*
+X146000000Y-64000000D02*
+X155000000Y-55000000D01*
+X154282000Y-72282000D02*
+X146000000Y-64000000D01*
+X155000000Y-55000000D02*
+X155000000Y-26016218D01*
+X155000000Y-26016218D02*
+X153757906Y-24774124D01*
+D13*
+%TO.N,/Buttons/L3*%
+X140830906Y-25830906D02*
+X139500000Y-24500000D01*
+X140830906Y-27314124D02*
+X140830906Y-25830906D01*
+%TO.N,/Buttons/SPACE*%
+X141000000Y-97000000D02*
+X141000000Y-102615000D01*
+X141000000Y-102615000D02*
+X141355000Y-102970000D01*
+%TD*%
+M02*
